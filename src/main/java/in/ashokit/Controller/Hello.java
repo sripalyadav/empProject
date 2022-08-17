@@ -12,7 +12,7 @@ public class WishController {
 	
 	
 	
-	@GetMapping("/wish")
+	@GetMapping("/hello")
 	public String display_WishMsg(@RequestParam("bookId") int bookId,@RequestParam("bookName") String bookName, Model model) {
 		
             String key="inf";
@@ -21,7 +21,7 @@ public class WishController {
 		System.out.println(value);
 		
 		
-		return "wish";
+		return "hello";
 	}
 }
 
