@@ -20,7 +20,7 @@ public class WishController {
 		model.addAttribute(key,value);	
 		System.out.println(value);
 		
-		
+		System.out.println("jenkintest");
 		return "hello";
 	}
 }
