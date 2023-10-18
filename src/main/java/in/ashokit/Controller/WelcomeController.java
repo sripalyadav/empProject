@@ -33,7 +33,7 @@ public class WelcomeController {
 		
 		 model.addAttribute("msg","good morining sripal Yadav");
 		
-		
+		System.out.println("jenkintest");
 		
 		return"index";
 	}
